@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Babel ESM Browser import via importmap</title>
+  </head>
+  <body>
+    <script src="./importmap.js"></script>
+    <script type="module">
+      import { parseSync } from './node_modules/@babel/core/lib/parse.js';
+      // Currently in an endless loop
+    </script>
+  </body>
+</html>
